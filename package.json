@@ -25,7 +25,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint:fix": "eslint src --ext .ts,.tsx --fix"
   },
   "eslintConfig": {
     "extends": [
@@ -46,7 +47,9 @@
     ]
   },
   "devDependencies": {
+    "@rocketseat/eslint-config": "^1.2.0",
     "@testing-library/react": "^14.0.0",
+    "eslint": "^8.39.0",
     "msw": "^1.2.1"
   }
 }
